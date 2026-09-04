@@ -128,7 +128,7 @@
           : `Talk #${index + 1}`;
 
       console.warn(
-        `[AI Seminar] Invalid or missing semester for "${talkLabel}". ` +
+        `[Computational Math Seminar] Invalid or missing semester for "${talkLabel}". ` +
           'Use "Fall 2026" or "2026 Fall" format.',
       );
     });

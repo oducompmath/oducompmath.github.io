@@ -2,31 +2,17 @@
 // Keep date as YYYY-MM-DD so automatic sorting works.
 window.SEMINAR_TALKS = [
   {
-    semester: "Spring 2026",
-    date: "2026-03-24",
-    title: "AI-Assisted Mathematics with VS Code (1)",
-    speaker: "Guohui Song",
-    affiliation: "ODU",
+    semester: "Fall 2026",
+    date: "2026-09-08",
+    title: "Integrating Physics into AI Surrogate Models for Complex Systems",
+    speaker: "Prof. Xuping Xie",
+    affiliation: "",
     bio: "",
     time: "12:30 PM",
     location: "ECSB 2120",
-    format: "Talk + Discussion",
+    format: "Seminar",
     abstract:
-      "In this talk, we will explore how to use AI assistants in Visual Studio Code (VS Code) to enhance the experience of learning, teaching, and researching mathematics. We will cover practical tips and techniques for leveraging AI tools to streamline the process of writing LaTeX, creating figures, preparing lecture notes, and translating research ideas into code. We will also discuss the strengths and limitations of AI assistants in the context of mathematics and provide best practices for using them effectively.",
-    slides: "https://gsong-math.github.io/talks/2026-AI4M-vscode",
-  },
-  {
-    semester: "Spring 2026",
-    date: "2026-04-02",
-    title: "AI-Assisted Mathematics with VS Code (2)",
-    speaker: "Guohui Song",
-    affiliation: "ODU",
-    bio: "",
-    time: "12:30 PM",
-    location: "ECSB 2120",
-    format: "Talk + Discussion",
-    abstract:
-      "In this talk, we will explore how to use AI assistants in Visual Studio Code (VS Code) to enhance the experience of learning, teaching, and researching mathematics. We will cover practical tips and techniques for leveraging AI tools to streamline the process of writing LaTeX, creating figures, preparing lecture notes, and translating research ideas into code. We will also discuss the strengths and limitations of AI assistants in the context of mathematics and provide best practices for using them effectively.",
-    slides: "https://gsong-math.github.io/talks/2026-AI4M-vscode",
+      "Machine learned surrogates promise large speedups for multiscale simulation, but purely black box ML/AI models struggle with stiffness, chaos, and physical consistency. This talk presents a general framework that combines autoencoders with latent neural differential equations, embedding known physical structure such as conserved quantities, timescale separation, and stability constraints into the learned representation and its dynamics. Rather than replacing physics with data, the approach uses each where it is strongest: exact structure is enforced by construction, while the remaining dynamics is learned. We will demonstrate the framework on two application problems: a stiff kinetic system and a chaotic wall-bounded turbulent flow, and discuss what physics is worth building in, what a latent space can and cannot simplify, and open challenges for surrogate modeling of nonstationary multiscale systems.",
+    slides: "",
   },
 ];
