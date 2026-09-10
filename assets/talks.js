@@ -31,4 +31,19 @@ window.SEMINAR_TALKS = [
       "Traditional deep learning frameworks rely on end-to-end training to solve large-scale, non-convex optimization problems. Consequently, they often suffer from spectral bias, training instability, and static architecture constraints. To address these fundamental challenges, we recently introduced the multi-grade deep learning (MGDL) framework. In this talk, we present the MGDL methodology specifically developed for solving operator equations and demonstrate its mathematical performance across several challenging benchmark problems, including oscillatory integral equations, the Helmholtz equation, and the Navier-Stokes equations.",
     slides: "",
   },
+  {
+    semester: "Fall 2026",
+    date: "2026-09-22",
+    title:
+      "Finite-Difference Multi-Grade Deep Learning for Incompressible Navier-Stokes Equations",
+    speaker: "Yuning Zhang",
+    affiliation: "",
+    bio: "",
+    time: "12:30 PM",
+    location: "ECSB 2120",
+    format: "Seminar",
+    abstract:
+      "We present a finite-difference multi-grade deep learning (FD-MGDL) method for solving incompressible Navier-Stokes Equations. The governing equations are enforced through finite-difference residuals, while the neural network is constructed progressively through a sequence of corrections. Each grade improves the solution obtained from the preceding grades while retaining previously learned features. Numerical experiments on several steady and unsteady incompressible flows demonstrate that FD-MGDL can achieve accurate solutions with substantially reduced training time and GPU memory compared with conventional single-network training.",
+    slides: "",
+  },
 ];
