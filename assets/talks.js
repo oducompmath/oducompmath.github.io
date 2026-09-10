@@ -18,7 +18,7 @@ window.SEMINAR_TALKS = [
   },
   {
     semester: "Fall 2026",
-    date: "2026-09-17",
+    date: "2026-09-15",
     title:
       "Multi-Grade Deep Learning for Numerical Solutions of Operator Equations",
     speaker: "Prof. Yuesheng Xu",
