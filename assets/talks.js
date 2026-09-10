@@ -13,7 +13,8 @@ window.SEMINAR_TALKS = [
     format: "Seminar",
     abstract:
       "Machine learned surrogates promise large speedups for multiscale simulation, but purely black box ML/AI models struggle with stiffness, chaos, and physical consistency. This talk presents a general framework that combines autoencoders with latent neural differential equations, embedding known physical structure such as conserved quantities, timescale separation, and stability constraints into the learned representation and its dynamics. Rather than replacing physics with data, the approach uses each where it is strongest: exact structure is enforced by construction, while the remaining dynamics is learned. We will demonstrate the framework on two application problems: a stiff kinetic system and a chaotic wall-bounded turbulent flow, and discuss what physics is worth building in, what a latent space can and cannot simplify, and open challenges for surrogate modeling of nonstationary multiscale systems.",
-    slides: "",
+    slides:
+      "https://drive.google.com/file/d/1I3M28VXHxnEqgFctlnwequa01SeGpbUh/view?usp=sharing",
   },
   {
     semester: "Fall 2026",
