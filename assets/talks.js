@@ -29,7 +29,8 @@ window.SEMINAR_TALKS = [
     format: "Seminar",
     abstract:
       "Traditional deep learning frameworks rely on end-to-end training to solve large-scale, non-convex optimization problems. Consequently, they often suffer from spectral bias, training instability, and static architecture constraints. To address these fundamental challenges, we recently introduced the multi-grade deep learning (MGDL) framework. In this talk, we present the MGDL methodology specifically developed for solving operator equations and demonstrate its mathematical performance across several challenging benchmark problems, including oscillatory integral equations, the Helmholtz equation, and the Navier-Stokes equations.",
-    slides: "",
+    slides:
+      "https://drive.google.com/file/d/12FtxNnV8Jn4VzvVuOLYXWKYUSt9B3WcM/view?usp=sharing",
   },
   {
     semester: "Fall 2026",
