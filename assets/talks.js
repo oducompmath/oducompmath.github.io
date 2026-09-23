@@ -45,6 +45,7 @@ window.SEMINAR_TALKS = [
     format: "Seminar",
     abstract:
       "We present a finite-difference multi-grade deep learning (FD-MGDL) method for solving incompressible Navier-Stokes Equations. The governing equations are enforced through finite-difference residuals, while the neural network is constructed progressively through a sequence of corrections. Each grade improves the solution obtained from the preceding grades while retaining previously learned features. Numerical experiments on several steady and unsteady incompressible flows demonstrate that FD-MGDL can achieve accurate solutions with substantially reduced training time and GPU memory compared with conventional single-network training.",
-    slides: "",
+    slides:
+      "https://drive.google.com/file/d/1cNA0hQCNDSYIQOduWSRqo9EwMrlEL6Yo/view?usp=sharing",
   },
 ];
