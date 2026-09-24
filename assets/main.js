@@ -65,7 +65,7 @@
       return talkDate && talkDate >= today;
     });
 
-    return upcoming.length > 0 ? sortByDateAsc(upcoming) : sortByDateAsc(talks);
+    return sortByDateAsc(upcoming);
   }
 
   function parseSemester(value) {
