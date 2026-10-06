@@ -48,4 +48,19 @@ window.SEMINAR_TALKS = [
     slides:
       "https://drive.google.com/file/d/1cNA0hQCNDSYIQOduWSRqo9EwMrlEL6Yo/view?usp=sharing",
   },
+  {
+    semester: "Fall 2026",
+    date: "2026-10-20",
+    title:
+      "A Hands-On Tutorial on Neural Networks",
+    speaker: "Prof. Xuping Xie",
+    affiliation: "",
+    bio: "",
+    time: "12:30 PM",
+    location: "ECSB 2120",
+    format: "Seminar",
+    abstract:
+      "In this tutorial, we will cover the basics of neural networks (NNs), including network architecture, activation functions, training, and backpropagation. As two short illustrative demos, we will build an NN to approximate a function, and a physics-informed neural network (PINN) to solve the 1D Burgers equation.",
+    slides:,
+  }
 ];
