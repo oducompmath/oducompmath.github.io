@@ -50,7 +50,7 @@ window.SEMINAR_TALKS = [
   },
   {
     semester: "Fall 2026",
-    date: "2026-10-20",
+    date: "2026-10-22",
     title: "A Hands-On Tutorial on Neural Networks",
     speaker: "Prof. Xuping Xie",
     affiliation: "",
