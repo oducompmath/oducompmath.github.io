@@ -61,4 +61,18 @@ window.SEMINAR_TALKS = [
     abstract:
       "In this tutorial, we will cover the basics of neural networks (NNs), including network architecture, activation functions, training, and backpropagation. As two short illustrative demos, we will build an NN to approximate a function, and a physics-informed neural network (PINN) to solve the 1D Burgers equation.",
   },
+  {
+    semester: "Fall 2026",
+    date: "2026-11-10",
+    title:
+      "Entropy stable high-order schemes for the compressible Navier–Stokes equations with isothermal no-slip wall boundary conditions",
+    speaker: "Dr. Mohammed Sayyari",
+    affiliation: "",
+    bio: "",
+    time: "12:30 PM",
+    location: "ECSB 2120",
+    format: "Seminar",
+    abstract:
+      "Entropy-stable boundary conditions are critical for ensuring that the corresponding numerical scheme satisfies the discrete entropy inequality, thus mimicking the second law of thermodynamics for the compressible Navier-Stokes equations. Entropy-stable adiabatic wall boundary conditions were introduced by Parsani (2014). Then, further generalized by Dalcin (2019) to a moving adiabatic solid wall or a wall with a prescribed heat flux using summation-by-parts (SBP) operators. Also, a similar approach was used in Chan (2022) to impose adiabatic and isothermal no-slip wall boundary conditions for the modal Discontinuous Galerkin method. While the proposed isothermal no-slip wall boundary conditions in Chan (2022) mimic the continuous entropy inequality, they are not entropy-stable and invariably lead to positive entropy production. This talk presents a new isothermal no-slip wall boundary condition that: 1) enforces the T(y=0)=T_wall and v(y=0)=v_wall conditions with design-order accuracy while maintaining stability, 2) provides the correct sign of entropy production, and 3) mimics the entropy balance of the Navier-Stokes equations at the discrete level. The structure-preserving and design-order properties of the proposed methodology are demonstrated on standard benchmark problems for compressible flows.",
+  },
 ];
