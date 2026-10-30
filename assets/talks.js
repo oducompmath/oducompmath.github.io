@@ -81,7 +81,7 @@ window.SEMINAR_TALKS = [
     date: "2026-11-19",
     title:
       "A Neural-network-based multiscale Hybridizable Discontinuous Galerkin method for solving PDEs in porous media",
-    speaker: "Tony Haines",
+    speaker: "Dr. Tony Haines",
     affiliation: "",
     bio: "",
     time: "12:30 PM",
