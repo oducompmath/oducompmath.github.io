@@ -1,5 +1,6 @@
 // Add new talks by appending another object to this array.
 // Keep date as YYYY-MM-DD so automatic sorting works.
+// For multiple abstract paragraphs, use backticks and separate paragraphs with a blank line.
 window.SEMINAR_TALKS = [
   {
     semester: "Fall 2026",
@@ -74,5 +75,22 @@ window.SEMINAR_TALKS = [
     format: "Seminar",
     abstract:
       "Entropy-stable boundary conditions are critical for ensuring that the corresponding numerical scheme satisfies the discrete entropy inequality, thus mimicking the second law of thermodynamics for the compressible Navier-Stokes equations. Entropy-stable adiabatic wall boundary conditions were introduced by Parsani (2014). Then, further generalized by Dalcin (2019) to a moving adiabatic solid wall or a wall with a prescribed heat flux using summation-by-parts (SBP) operators. Also, a similar approach was used in Chan (2022) to impose adiabatic and isothermal no-slip wall boundary conditions for the modal Discontinuous Galerkin method. While the proposed isothermal no-slip wall boundary conditions in Chan (2022) mimic the continuous entropy inequality, they are not entropy-stable and invariably lead to positive entropy production. This talk presents a new isothermal no-slip wall boundary condition that: 1) enforces the T(y=0)=T_wall and v(y=0)=v_wall conditions with design-order accuracy while maintaining stability, 2) provides the correct sign of entropy production, and 3) mimics the entropy balance of the Navier-Stokes equations at the discrete level. The structure-preserving and design-order properties of the proposed methodology are demonstrated on standard benchmark problems for compressible flows.",
+  },
+  {
+    semester: "Fall 2026",
+    date: "2026-11-19",
+    title:
+      "A Neural-network-based multiscale Hybridizable Discontinuous Galerkin method for solving PDEs in porous media",
+    speaker: "Tony Haines",
+    affiliation: "",
+    bio: "",
+    time: "12:30 PM",
+    location: "ECSB 2120",
+    format: "Seminar",
+    abstract: `Multiscale hybridizable discontinuous Galerkin (MsHDG) methods provide a flexible framework for solving flow problems in heterogeneous media. Their key feature is a local-to-global decomposition: fine-scale problems are solved independently on coarse subdomains, while the global coupling is carried only by trace unknowns on the coarse skeleton. From this viewpoint, each local HDG solver defines a Dirichlet-to-Neumann (DtN) map that converts prescribed trace data into numerical fluxes. This interpretation can be applied to a wide range of linear and nonlinear PDEs.
+
+      The main computational bottleneck is the repeated construction of these local DtN operators when the coefficients or solution state vary. Motivated by the element-learning framework of Du and Stechmann, we replace the expensive local solver by a neural-network surrogate. Rather than learning element-level operators, however, we learn the DtN map associated with an entire MsHDG coarse block, which may contain many fine-scale elements.
+
+      For Darcy flow in heterogeneous porous media, we present the resulting neural-network-based MsHDG method and numerical experiments for both moderate- and high-contrast permeability fields. In the moderate-contrast regime, the learned local operators reproduce the standard MsHDG solution with small additional modeling error while providing substantial online speedup. The high-contrast experiments reveal a more delicate picture: polynomial coarse trace spaces may themselves become inadequate, and relatively small local operator errors can be strongly amplified by the global coupling. We conclude with several possible directions for improving robustness in this regime, including coefficient-adapted spectral trace spaces, structure-preserving neural parameterizations, and loss functions tailored to solution-relevant trace directions.`,
   },
 ];

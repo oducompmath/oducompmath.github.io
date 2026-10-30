@@ -276,9 +276,13 @@
       const dateLabel = shortDate(talk.date);
       const format = escapeHtml(talk.format || "Talk");
       const title = escapeHtml(talk.title || "Untitled talk");
-      const abstract = escapeHtml(
+      const abstract = String(
         talk.abstract || talk.summary || "Details coming soon.",
-      );
+      )
+        .trim()
+        .split(/\r?\n\s*\r?\n/)
+        .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
+        .join("\n");
       const speaker = escapeHtml(talk.speaker || "TBA");
       const time = escapeHtml(talk.time || "TBD");
       const location = escapeHtml(talk.location || "TBD");
@@ -299,7 +303,7 @@
         '    <div class="schedule-item-content">',
         `      <p class=\"meta-label\">${format}</p>`,
         `      <p><strong>Time:</strong> ${time} <strong>Location:</strong> ${location}</p>`,
-        `      <p>${abstract}</p>`,
+        abstract,
         slidesHtml,
         "    </div>",
         "  </details>",
