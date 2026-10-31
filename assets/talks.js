@@ -64,7 +64,7 @@ window.SEMINAR_TALKS = [
   },
   {
     semester: "Fall 2026",
-    date: "2026-11-10",
+    date: "2026-12-01",
     title:
       "Entropy stable high-order schemes for the compressible Navier–Stokes equations with isothermal no-slip wall boundary conditions",
     speaker: "Dr. Mohammed Sayyari",
